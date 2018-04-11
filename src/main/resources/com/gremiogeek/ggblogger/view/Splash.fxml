@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="625.0" style="-fx-background-color: #081828;" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gremiogeek.ggblogger.controller.Splash">
+   <bottom>
+      <Label fx:id="lblGG" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="139.0" prefWidth="471.0" text="GremioGeek" textAlignment="CENTER" textFill="#e6e6e6" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="SansSerif Regular" size="48.0" />
+         </font>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </Label>
+   </bottom>
+   <center>
+      <ImageView fx:id="logo" fitHeight="65.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+         <Image url="@../images/logo.png" />
+      </ImageView>
+   </center>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</BorderPane>
