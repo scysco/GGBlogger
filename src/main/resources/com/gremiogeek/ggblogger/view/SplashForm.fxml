@@ -7,11 +7,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="625.0" style="-fx-background-color: #081828;" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane fx:controller="com.gremiogeek.ggblogger.controller.SplashForm" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="625.0" style="-fx-background-color: #081828;" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <HBox alignment="CENTER" prefHeight="87.0" prefWidth="625.0" BorderPane.alignment="CENTER">
          <children>
-            <Label text="Nuevo Blog" textFill="#e6e6e6">
+            <Label onMouseClicked="#newBlog" text="Nuevo Blog" textFill="#e6e6e6">
                <font>
                   <Font size="28.0" />
                </font>

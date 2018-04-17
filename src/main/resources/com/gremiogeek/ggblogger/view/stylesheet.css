@@ -1,0 +1,99 @@
+.pge-art{
+	width: 100%;
+	min-height: 95vh;
+    border: 0;
+    overflow: auto;
+    outline: none;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	line-height: 1.8em;
+}
+/*images*/
+.p-img img{
+	width: 100%;
+}
+.s-img img{
+	width: 96%;
+	margin: 0 2%;
+}
+/*h1*/
+.pge-art h1{
+	font-size: 3em;
+	color: #f9f9f9;
+    text-shadow: 0 0 2px #888888;
+	position: relative;
+	height: 0;
+	top: -1.5em;
+	padding: 0 2%;
+}
+/*h2*/
+.pge-art h2{
+	padding: 10px 2%;
+	font-size: 1.4em;
+}
+/*h3*/
+.pge-art h3{
+	padding: 10px 2%;
+	font-size: 1.2em;
+}
+/*p*/
+.pge-art p{
+	padding: 10px 1%;
+	font-size: 1.1em;
+}
+/*ul*/
+.pge-art ul{
+	padding: 0 2%;
+	margin: 2px 0;
+}
+/*gist github*/
+.gist{
+	margin: 0 2%;
+	margin-top: 10px;
+}
+/*youtube*/
+.youtube-video, .pdf-drive{
+	width: 96%;
+	margin: 0 2%;
+}
+/*asciicast*/
+.asciicast{
+	width: 96%;
+	margin: 0 2% !important;
+}
+/*cli commands*/
+pre{
+	font-family: monospace;
+	background-color: #f1f1f1;
+	margin: 0 4%;
+	text-align: left;
+	overflow: auto;
+}
+/**indx**/
+#indx{
+	background-color: #f9f9f9;
+	border: 1px solid #aaa;
+	margin: 0 2%;
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+}
+#indx div{
+	align-self: center;
+	font-size: 1.2em;
+	padding: 5px;
+}
+#indx div span{
+	font-size: .8em;
+}
+#indx div span span{
+	color: #57b9f2;
+	cursor: pointer;
+}
+#indx li{
+	padding: 3px 0;
+}
+#indx a{
+	color: #57b9f2;
+}

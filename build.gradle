@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.google.apis:google-api-services-blogger:v3-rev56-1.23.0'
 }
 
 //Application plugin
@@ -34,12 +35,6 @@ buildscript {
         mavenCentral()
 
     }
-}
-apply plugin: 'java'
-
-repositories {
-    mavenLocal()
-    mavenCentral()
 }
 
 apply plugin: 'javafx-gradle-plugin'

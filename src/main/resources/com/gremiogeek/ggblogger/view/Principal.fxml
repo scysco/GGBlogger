@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<BorderPane fx:id="pnlPrincipal" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="473.0" prefWidth="733.0" style="-fx-background-color: #e6e6e6;" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gremiogeek.ggblogger.controller.Principal">
+   <top>
+      <BorderPane fx:id="pnlMenu" prefHeight="0.0" prefWidth="733.0" BorderPane.alignment="CENTER">
+         <top>
+            <BorderPane prefHeight="0.0" prefWidth="733.0" BorderPane.alignment="CENTER">
+               <center>
+                  <HBox prefHeight="3.0" prefWidth="546.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <FlowPane fx:id="btnInicio" alignment="CENTER" onMouseClicked="#clickInicio" prefHeight="30.0" prefWidth="113.0" style="-fx-background-color: #7dc43a;">
+                           <children>
+                              <Label text="Inicio" textFill="#e6e6e6">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </FlowPane>
+                        <FlowPane fx:id="btnInsertar" alignment="CENTER" onMouseClicked="#clickInsertar" prefHeight="30.0" prefWidth="113.0" style="-fx-background-color: #7dc43a;">
+                           <children>
+                              <Label text="Insertar" textFill="#e6e6e6">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </FlowPane>
+                        <FlowPane fx:id="btnRevisar" alignment="CENTER" onMouseClicked="#clickRevisar" prefHeight="30.0" prefWidth="113.0" style="-fx-background-color: #7dc43a;">
+                           <children>
+                              <Label text="Revisar" textFill="#e6e6e6">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </FlowPane>
+                        <FlowPane fx:id="btnPublicar" alignment="CENTER" onMouseClicked="#clickPublicar" prefHeight="30.0" prefWidth="113.0" style="-fx-background-color: #7dc43a;">
+                           <children>
+                              <Label text="Publicar" textFill="#e6e6e6">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </FlowPane>
+                     </children>
+                  </HBox>
+               </center>
+               <right>
+                  <Label text="GremioGeek.com" textFill="#081828" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets bottom="5.0" left="50.0" right="15.0" top="5.0" />
+                     </BorderPane.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </right>
+            </BorderPane>
+         </top>
+      </BorderPane>
+   </top>
+   <bottom>
+      <Button mnemonicParsing="false" onMouseClicked="#htmlGen" text="Generar" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <WebView fx:id="webView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+      </WebView>
+   </center>
+   <left>
+      <Pane prefHeight="419.0" prefWidth="250.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Pane prefHeight="419.0" prefWidth="250.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>

@@ -11,19 +11,22 @@ import java.io.IOException;
 
 public class Main extends Application {
 
+    public static Stage splashStage;
+
     public static void main(String[] args) {
         launch(args);
     }
 
     @Override
-    public void start(Stage primaryStage) throws IOException {
+    public void start(Stage splashStage) throws IOException {
         Parent splash = FXMLLoader.load(getClass().getResource("/com/gremiogeek/ggblogger/view/Splash.fxml"));
-        primaryStage.setTitle("GGBlogger");
-        primaryStage.setScene(new Scene(splash,625,350));
-        primaryStage.initStyle(StageStyle.UNDECORATED);
-        primaryStage.setAlwaysOnTop(true);
-        primaryStage.setResizable(false);
+        Main.splashStage = splashStage;
+        Main.splashStage.setTitle("GGBlogger");
+        Main.splashStage.setScene(new Scene(splash,625,350));
+        Main.splashStage.initStyle(StageStyle.UNDECORATED);
+        Main.splashStage.setAlwaysOnTop(true);
+        Main.splashStage.setResizable(false);
 
-        primaryStage.show();
+        Main.splashStage.show();
     }
 }

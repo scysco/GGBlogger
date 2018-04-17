@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<FlowPane alignment="CENTER_LEFT" prefHeight="94.0" prefWidth="693.0" style="-fx-background-color: #081828;" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" prefHeight="77.0" prefWidth="100.0">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/parrafo.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" text="Parrafo" textFill="#e6e6e6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" prefHeight="77.0" prefWidth="147.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="9.0" prefWidth="90.0">
+               <children>
+                  <ImageView fitHeight="33.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/letter.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label text="Titulo" textFill="#e6e6e6">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="15.0" layoutY="15.0" prefHeight="9.0" prefWidth="90.0">
+               <children>
+                  <ImageView fitHeight="33.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/letter.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label text="SubTitulo" textFill="#e6e6e6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+         </children></VBox>
+      <VBox alignment="CENTER" layoutX="10.0" layoutY="19.0" prefHeight="77.0" prefWidth="92.0">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/imagen.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" text="Imagen" textFill="#e6e6e6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="105.0" layoutY="19.0" prefHeight="77.0" prefWidth="108.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="9.0" prefWidth="90.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/youtube.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label text="Video" textFill="#e6e6e6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="15.0" layoutY="15.0" prefHeight="9.0" prefWidth="90.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/pdf.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="6.0" right="6.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label text="Archivo" textFill="#e6e6e6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="240.0" layoutY="19.0" prefHeight="77.0" prefWidth="82.0">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/codigo.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" text="Codigo" textFill="#e6e6e6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="320.0" layoutY="19.0" prefHeight="77.0" prefWidth="130.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="123.0">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/comando.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label text="Comando" textFill="#e6e6e6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</FlowPane>
